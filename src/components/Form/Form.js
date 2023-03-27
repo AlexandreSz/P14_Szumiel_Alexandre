@@ -99,7 +99,7 @@ const Form = () => {
         display={displayModal}
         width="50%"
         height="100%"
-        bgColor="#6dd869"
+        modalBgColor="#6dd869"
         margin="0 auto"
         button="yes"
         buttonText="Fermer"

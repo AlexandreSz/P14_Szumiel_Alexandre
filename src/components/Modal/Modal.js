@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './modal.css'
 
 /**
- *
+ *@deprecated
  * @param props list : text, display, buttonDisplay,width, height, bgColor, margin...
  * @returns a custom modal
  */
@@ -30,7 +30,7 @@ const Modal = (props) => {
         style={{
           width: props.width,
           height: props.height,
-          backgroundColor: props.bgColor,
+          backgroundColor: props.modalBgColor,
           margin: props.margin,
         }}
       >
